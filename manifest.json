@@ -1,0 +1,17 @@
+{
+    "content_scripts": [
+        {
+            "matches": ["https://tkcafe.net/*"],
+            "js": [
+                "built/contentScript.js",
+                "built/jquery-3.4.1.js"
+            ]
+        }
+    ],
+    "manifest_version": 2,
+    "name": "tkcafe notification",
+    "permissions": [
+        "activeTab"
+    ],
+    "version": "0.1"
+}
